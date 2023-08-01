@@ -5,7 +5,7 @@ import { listPets, getPet } from './queries/pets.queries.js'
 Um Schema é uma coleção de definições de tipo (daí "typeDefs")
 que juntos definem a "forma" das consultas executadas em seus dados.
 */ 
-export const typeDefs = `#graphql
+export const typeDefs = `
   # OBJECT TYPES
   # Este tipo "Pet" define os campos que podem ser consultados para cada animal de estimação em nossa fonte de dados.
   type Pet {
